@@ -9,6 +9,7 @@ copier copy gh:you-n-g/plugin-scaffold.nvim <your-plugin-name>
 ```
 
 The template includes these features:
+- Scaffold for Neovim Lua plugins to ease the organization of your code
 - panvimdoc: automatically generates Vim docs from the README.md using [panvimdoc](https://github.com/kdheepak/panvimdoc)
 - auto-release: automatically generates a changelog and adds version tags based on your commit messages
 
