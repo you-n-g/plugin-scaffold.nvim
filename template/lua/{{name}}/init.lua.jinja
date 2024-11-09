@@ -1,0 +1,10 @@
+local M = {}
+
+
+function M.setup(options)
+  require"{{name}}.conf".setup(options)
+  require"{{name}}.mappings".setup()
+end
+
+
+return M
