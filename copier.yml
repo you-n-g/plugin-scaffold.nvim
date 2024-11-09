@@ -1,0 +1,9 @@
+_subdirectory: template
+# Questions
+name:
+  type: str
+  help: the name of your package. It will be used in places like `require"{{'{{'}}name{{'}}'}}"`
+
+github:
+  type: str
+  help: it is `you-n-g/simplegpt.nvim` in `https://github.com/you-n-g/simplegpt.nvim`
