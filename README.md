@@ -5,12 +5,20 @@ It uses [copier](https://github.com/copier-org/copier), allowing you to create y
 
 ```bash
 pip install copier
-copier gh:you-n-g/plugin-scaffold.nvim <your-plugin-name>
+copier copy gh:you-n-g/plugin-scaffold.nvim <your-plugin-name>
 ```
 
 The template includes these features:
 - panvimdoc: automatically generates Vim docs from the README.md using [panvimdoc](https://github.com/kdheepak/panvimdoc)
 - auto-release: automatically generates a changelog and adds version tags based on your commit messages
+
+## configuration
+
+You can follow following steps to fully
+
+### Configure PAT
+
+You avatar => Settings => Developer settings => Personal access tokens 
 
 # Related Projects
 Many features are from [nvim-lua-plugin-template](https://github.com/ellisonleao/nvim-lua-plugin-template).
