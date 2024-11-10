@@ -22,5 +22,14 @@ You can follow following steps to fully
 - Generate PAT: Your avatar => Settings => Developer settings => Personal access tokens
 - Usage PAT: Repository Settings => Repository secrets => New repository secret => MY_RELEASE_PLEASE_TOKEN
 
+
+## Maintenance
+
+```bash
+cd <your-plugin-directory>
+copier update  # to update from the latest template
+```
+
+
 # Related Projects
 Many features are from [nvim-lua-plugin-template](https://github.com/ellisonleao/nvim-lua-plugin-template).
