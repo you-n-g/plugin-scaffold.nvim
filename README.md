@@ -20,6 +20,7 @@ You can follow following steps to fully
 ### Configure PAT
 
 - Generate PAT: Your avatar => Settings => Developer settings => Personal access tokens
+  - Config PAT: Addd "Pull requests", "Contents"
 - Usage PAT: Repository Settings => Repository secrets => New repository secret => MY_RELEASE_PLEASE_TOKEN
 
 
