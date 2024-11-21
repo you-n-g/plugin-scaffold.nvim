@@ -12,10 +12,11 @@ The template includes these features:
 - Scaffold for Neovim Lua plugins to ease the organization of your code
 - panvimdoc: automatically generates Vim docs from the README.md using [panvimdoc](https://github.com/kdheepak/panvimdoc)
 - auto-release: automatically generates a changelog and adds version tags based on your commit messages
+- test suite
 
 ## configuration
 
-You can follow following steps to fully
+You can follow following steps to fully enable the CI process and smooth your release process.
 
 ### Configure PAT
 
