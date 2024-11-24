@@ -25,13 +25,20 @@ You can follow following steps to fully enable the CI process and smooth your re
 - Usage PAT: Repository Settings => Repository secrets => New repository secret => MY_RELEASE_PLEASE_TOKEN
 
 
-## Maintenance
+## Dev & Maintenance
 
+
+### Update the target project
 ```bash
 cd <your-plugin-directory>
 copier update  # to update from the latest template
 ```
 
+### Test `plugin-scaffold.nvim`
+
+```bash
+make  # this would run test for plugin-scaffold.nvim
+```
 
 # Related Projects
 Many features are from [nvim-lua-plugin-template](https://github.com/ellisonleao/nvim-lua-plugin-template).
