@@ -14,7 +14,7 @@ The template includes these features:
 - auto-release: automatically generates a changelog and adds version tags based on your commit messages
 - test suite
 
-## configuration
+## ⚙️Configuration
 
 You can follow following steps to fully enable the CI process and smooth your release process.
 
@@ -25,7 +25,7 @@ You can follow following steps to fully enable the CI process and smooth your re
 - Usage PAT: Repository Settings => Repository secrets => New repository secret => MY_RELEASE_PLEASE_TOKEN
 
 
-## Dev & Maintenance
+## 🔨Dev & Maintenance
 
 
 ### Update the target project
@@ -40,5 +40,5 @@ copier update  # to update from the latest template
 make  # this would run test for plugin-scaffold.nvim
 ```
 
-# Related Projects
+## 🔗Related Projects
 Many features are from [nvim-lua-plugin-template](https://github.com/ellisonleao/nvim-lua-plugin-template).
